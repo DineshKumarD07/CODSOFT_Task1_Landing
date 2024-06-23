@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #87CEEB; /* Light blue background */
+        }
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header .contact-info {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-align: right;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+        }
+        .banner {
+            background: url('banner-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .banner h1 {
+            font-size: 48px;
+        }
+        .banner .cta-buttons {
+            margin-top: 20px;
+        }
+        .cta-buttons button {
+            background-color: #90ff50;
+            border: none;
+            color: rgb(34, 188, 222);
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f8f8f8;
+            padding: 20px 0;
+        }
+        .features .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .features .feature h3 {
+            color: #ff7f50;
+        }
+        .about {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .about h2 {
+            margin-bottom: 20px;
+        }
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            background-color: #1ecc27;
+        }
+        .services .service {
+            text-align: center;
+            width: 30%;
+        }
+        .services .service img {
+            width: 100%;
+            height: auto;
+        }
+        .services .service h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #15eddb;
+            color: rgb(88, 135, 45);
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Landing Page</div>
+        <div class="contact-info">
+            <p>+1-234-567-890 | demo@landingpage.com</p>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Page</a>
+            <a href="#">Services</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contact</a>
+            <button class="button">Request a Consult</button>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>Digitial Agency</h1>
+        <p>This Html represents the Simple Digitial agency of landing page</p>
+        <div class="cta-buttons">
+            <button>Read More</button>
+            <button>Request a Consult</button>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h3>Launch Business</h3>
+            <p>To enhance the Launch of an business</p>
+        </div>
+        <div class="feature">
+            <h3>Online Support Team</h3>
+            <p>To Represent the Online Support team for the customers.</p>
+        </div>
+        <div class="feature">
+            <h3>Time Management</h3>
+            <p>Time Management makes the customer to make the required in the particular time.</p>
+        </div>
+    </div>
+    <div class="about">
+        <h2>About Us</h2>
+        <p>We the starring Landing page.We make sure the customers to make this as an sample Landing page to represent more project's.</p>
+        <button>Read More</button>
+    </div>
+    <div class="services">
+        <div class="service">
+            <img src="UX.jpg" alt="User Experience" width="150" height="200">
+            <h3>User Experience</h3>
+        </div>
+        <div class="service">
+            <img src="Creative.jpg" alt="Creative Design" width="150" height="200">
+            <h3>Creative Design</h3>
+        </div>
+        <div class="service">
+            <img src="Blink.jpg" alt="Retina Ready" width="150" height="200">
+            <h3>Retina Ready</h3>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 DINESH COMPANY. All rights reserved.</p>
+        <p>Created by Dinesh D</p>
+    </footer>
+</body>
+</html>
